@@ -36,7 +36,7 @@ const HeaderContact = [
 const HeaderProjects= [
   {
     text:"Portfolio",
-    link:"https://shubhamjoshii.github.io/Portfolio.1.0/"
+    link:"https://shubhamjoshii.github.io/Portfolio2.0/"
   },
   {
     text:"Hotstar Clone",
