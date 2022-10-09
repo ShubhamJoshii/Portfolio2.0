@@ -6,6 +6,7 @@
   display: flex;
   background-color: rgba(0, 0, 0, 0.727);
   padding: 10px;
+
   color: white;
   position: fixed;
   font-family: 'Courier New', Courier, monospace;
@@ -116,6 +117,53 @@ li a{
   text-shadow:0px 0px 30px #FF0000;
   text-decoration: dashed;
   
+}
+
+
+
+.ContentPage2{
+  background-color: #000000;
+  color: #FFFEFE;
+  height: 100vh;
+  border-top: 1px solid white;
+  border-bottom: 3px solid white;
+}
+
+.ContentPage2 h1{
+  font-size: 70px;
+  font-family: cursive;
+  text-align: center;
+  padding-top: 30px;
+}
+.ProjectSumm{
+  display: flex;
+  text-align: center;
+  margin: 50px 0px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.ProjectSummInner{
+  margin: 30px 0px;
+}
+
+.ProjectSummInner:hover{
+  transform: scale(1.3);
+}
+
+.ProjectImg{
+  width: 20vw;
+  height: 25vh;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProjectImg img{
+  border-radius: 20px;
 }
 
 

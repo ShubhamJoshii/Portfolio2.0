@@ -53,7 +53,7 @@ const HeaderProjects= [
   {
     text:"Password Generator",
     link:"https://shubhamjoshii.github.io/PasswordGenerator/"
-  },
+  }
 ]
 const Header = () => {
   return (
