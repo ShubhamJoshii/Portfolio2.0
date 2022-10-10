@@ -1,24 +1,24 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
-.Header{
+.Header {
   display: flex;
   background-color: rgba(0, 0, 0, 0.727);
   padding: 10px;
 
   color: white;
   position: fixed;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   height: 30px;
 }
 
-.Header a{
+.Header a {
   text-decoration: none;
   color: white;
 }
 
-.DropDown{
+.DropDown {
   display: none;
   position: absolute;
   background-color: #00000097;
@@ -27,56 +27,69 @@
   padding: 10px 0px;
 }
 
-.DropDown li{
+.DropDown li {
   margin-top: 3px;
   padding-left: 10px;
 }
 
-.Header li:hover ,.DropDown li:hover{
+.Header li:hover,
+.DropDown li:hover {
   font-weight: bolder;
 }
 
-li a{
+li a {
   color: white;
   text-decoration: none;
 }
 
-
-.DropDown li:hover{
+.DropDown li:hover {
   background-color: #000000;
 }
 
-.Header ol{
+.Header ol {
   display: flex;
   width: 50vw;
   justify-content: space-evenly;
   align-items: center;
   font-size: 17px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.Header li:hover .DropDown{
+.Header li:hover .DropDown {
   display: block;
 }
 
-.Header h1{
+.Header h1 {
   font-weight: bolder;
   width: 50vw;
 }
-.Header ol li{
+.Header ol li {
   list-style: none;
 }
 
+.burger {
+  width: 10vw;
+  /* display: none; */
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
 
+.BurgerLine {
+  width: 33px;
+  height: 3px;
+  background-color: White;
+  margin-top: 5px;
+}
 
-
-.ContentPage1{
-  background:rgba(0, 0, 0, 0.6) url("./Images/background.jpg");
+.ContentPage1 {
+  background: rgba(0, 0, 0, 0.6) url("./Images/background.jpg");
   /* filter: blur(1px); */
   height: 92vh;
   padding-top: 60px;
-  background-blend-mode:darken ;
+  background-blend-mode: darken;
   /* background-position: ; */
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
@@ -86,93 +99,91 @@ li a{
   align-items: center;
 }
 
-
-#FrontImg{
+#FrontImg {
   border-radius: 50%;
   width: 300px;
-  border: 5px solid #ff3c00c4;
-
+  /* border: 5px solid #ff3c00c4; */
+  /* border: 10px solid white; */
+  border: 5px solid rgba(255, 230, 0, 0.658);
 }
 
-.First_second{
-  color: #FFFEFE;
+.First_second {
+  color: #fffefe;
   font-family: cursive;
   width: 40vw;
   margin-left: 100px;
 }
 
-.First_second h1{
+.First_second h1 {
   font-size: 60px;
 }
-.First_second h2{
+.First_second h2 {
   font-size: 23px;
-
 }
 
-.First_second #TextPara3{
-  color: #FF0000;
+.First_second #TextPara3 {
+  color: #ff0000;
 }
 
-.First_second #TextPara2{
-  text-shadow:0px 0px 30px #FF0000;
+.First_second #TextPara2 {
+  text-shadow: 0px 0px 30px #ff0000;
   text-decoration: dashed;
-  
 }
 
-
-
-.ContentPage2{
+.ContentPage2 {
   background-color: #000000;
-  color: #FFFEFE;
-  height: 100vh;
+  color: #fffefe;
+  /* height: 100vh; */
   border-top: 1px solid white;
   border-bottom: 3px solid white;
 }
 
-.ContentPage2 h1{
+.ContentPage2 h1 {
   font-size: 70px;
   font-family: cursive;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
-.ProjectSumm{
+.ProjectSumm {
   display: flex;
   text-align: center;
-  margin: 50px 0px;
+  margin: 20px 0px;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  
 }
 
-.ProjectSummInner{
+.ProjectSummInner {
   margin: 30px 0px;
 }
 
-.ProjectSummInner:hover{
+.ProjectSummInner:hover {
   transform: scale(1.3);
 }
 
-.ProjectImg{
-  width: 20vw;
-  height: 25vh;
+.ProjectImg {
+  width: 325px;
+  height: 205px;
   background-color: aliceblue;
   border-radius: 20px;
   margin-bottom: 10px;
+}
+
+.ProjectImg a {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
-.ProjectImg img{
+
+.ProjectImg img {
   border-radius: 20px;
+  width: 95%;
+  height: 90%;
 }
 
-
-
-
-
-footer{
-  height: 30vh;
-  background: linear-gradient(8deg ,#0F3D3E 50% ,#000000 50%);
+footer {
+  /* height: 30vh; */
+  background: linear-gradient(8deg, #0f3d3e 50%, #000000 50%);
   display: flex;
   justify-content: center;
 }
@@ -180,7 +191,7 @@ footer{
 /* .footer_First , .footer_Second , .footer_Third{
 } */
 
-.footer_First{
+.footer_First {
   width: 20vw;
   font-size: 200px;
   font-family: Constantia;
@@ -192,23 +203,23 @@ footer{
   margin-top: -40px;
 }
 
-.footer_Second{
+.footer_Second {
   width: 55vw;
 }
 
-#LineOuter{
-  height: 100%;
+#LineOuter {
+  /* height: 100%; */
   display: flex;
   align-items: center;
 }
 
-.lines{
+.lines {
   width: 2px;
   height: 80%;
-  background-color: #FFFEFE;
+  background-color: #fffefe;
 }
 
-.footer_Third{
+.footer_Third {
   width: 20vw;
   display: flex;
   flex-direction: column;
@@ -216,16 +227,115 @@ footer{
   align-items: center;
 }
 
-.footer_Third a{
+.footer_Third a {
   margin-top: 10px;
 }
 
-#SocialImg{
+#SocialImg {
   transition: 1ms;
   border-radius: 20px;
 }
 
-#SocialImg:hover{
+#SocialImg:hover {
   box-shadow: 0px 0px 1px white;
   transform: scale(1.2);
+}
+
+@media only screen and (max-width: 960px) {
+  .First_second {
+    width: 55vw;
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 727px) {
+  .ContentPage1 {
+    flex-direction: column;
+  }
+  .First_second {
+    width: 100vw;
+    margin-top: 50px;
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .Header {
+    width: 100vw;
+  }
+
+  .Header h1{
+    width: 80vw;
+    font-size: 25px;
+  }
+
+  .Header ol li {
+    margin-top: 5px;
+    width: 90%;
+  }
+
+  .Header ol ul {
+    margin-left: -40px;
+    background-color: #000000;
+  }
+
+  .Header ol li:hover {
+    background-color: #bdb5b581;
+  }
+
+  .burger {
+    cursor: pointer;
+  }
+  .Header .Orderheader {
+    display: none;
+    position: absolute;
+    top: 50px;
+    flex-direction: column;
+    left: 70vw;
+    /* opacity: 0.5; */
+    width: 25vw;
+    background-color: #000000;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .Header:hover .Orderheader {
+    /* opacity: 1; */
+    display: block;
+  }
+  #LineOuter{
+    display: none;
+  }
+  .footer_First{
+    font-size: 150px;
+  }
+  .footer_Second{
+    /* display: none; */
+    width: 20vw;
+  }
+  .footer_Third{
+    flex-direction: row;
+  }
+  .footer_Third a{
+    margin-right: 10px;
+  }
+  footer{
+    background: linear-gradient(19deg, #0f3d3e 50%, #000000 50%);
+  }
+  .ProjectSummInner{
+    margin: 9px 0px;
+  }
+}
+
+
+@media only screen and (max-width: 440px) {
+  #FrontImg{
+    width: 225px;
+  }
+  .First_second h1{
+    font-size: 41px;
+  }
+  .First_second h2{
+    font-size: 19px;
+  }
 }
