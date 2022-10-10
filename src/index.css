@@ -197,14 +197,21 @@ footer {
   font-family: Constantia;
   font-style: italic;
   color: rgba(255, 255, 255, 0.621);
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
-  margin-top: -40px;
+  z-index: 9999;
+  /* margin-top: -40px; */
 }
 
 .footer_Second {
   width: 55vw;
+  color: #9d00ff30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 110px;
+  font-family: fantasy;
 }
 
 #LineOuter {
@@ -258,6 +265,10 @@ footer {
     margin-left: 0px;
     text-align: center;
   }
+  .footer_Second{
+    /* display: none; */
+    font-size: 80px;
+  }
 }
 
 @media only screen and (max-width: 655px) {
@@ -265,6 +276,11 @@ footer {
     width: 100vw;
   }
 
+  .footer_Second{
+    /* display: none; */
+    /* font-size: 80px; */
+    color: #00000000;
+  }
   .Header h1{
     width: 80vw;
     font-size: 25px;

@@ -20,7 +20,7 @@ const Footer = () => {
       <div id="LineOuter">
         <div className="lines"></div>
       </div>
-      <div className="footer_Second"></div>
+      <div className="footer_Second">Shubham</div>
       <div id="LineOuter">
         <div className="lines"></div>
       </div>
