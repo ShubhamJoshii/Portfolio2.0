@@ -10,7 +10,7 @@ import Password from "./Images/ProjectPassword.png";
 import Hotstar from "./Images/ProjectHotstar.png";
 import DigitalClock from "./Images/ProjectDigital.png";
 import formore from "./Images/Click.png";
-
+import Shubham2 from "./Images/Shubham2.jpg"
 const Data = {
   SocialLogo: [
     {
@@ -42,6 +42,7 @@ const Data = {
   ],
   MainPageImg: FrontImg,
   resume:"https://drive.google.com/file/d/170t40CWF0c0pLFkfXWJmqu7MMjPYWeO6/view?usp=sharing",
+  Shubham2,
   Project: [
     {
       text: "Portfolio",

@@ -6,7 +6,7 @@
   display: flex;
   background-color: rgba(0, 0, 0, 0.727);
   padding: 10px;
-
+z-index: 9999;
   color: white;
   position: fixed;
   font-family: "Courier New", Courier, monospace;
@@ -134,8 +134,8 @@ li a {
   background-color: #000000;
   color: #fffefe;
   /* height: 100vh; */
-  border-top: 1px solid white;
-  border-bottom: 3px solid white;
+  border-top: 1px dotted white;
+  border-bottom: 1px dotted white;
 }
 
 .ContentPage2 h1 {
@@ -181,6 +181,77 @@ li a {
   height: 90%;
 }
 
+.ContentPage3{
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  align-items: center;
+  height: 100vh;
+  border-bottom: 1px dotted white;
+  border-top: 1px dotted white;
+}
+
+/* .Page3First{
+} */
+
+.ContentPage3 .Page3First img{
+  width: 350px;
+  border-radius: 20px;
+  filter: contrast(1.5);
+
+}
+
+.Page3Second{
+  width: 40vw;
+  margin-left: -40px;
+}
+
+.Page3Second h1{
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+
+.Page3Second #AboutPara{
+  margin-bottom: 25px;
+  color: rgb(227, 237, 236);
+  font-size: 16px;
+  /* text-align: justify; */
+}
+
+.Page3Second button{
+  background: none;
+  color: #ddd7d7f0;
+  cursor: pointer;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.Page3Second button:hover, .Page3Second button:focus {
+  border-bottom: 3px solid #BC2C4D;
+  /* outline: ; */
+}
+
+/* .Page3Fixed{
+  position:absolute;
+  top: 10px;
+}
+
+.Page3FixedSec{
+  position:absolute;
+
+} */
+
+#topic{
+  color: #7e2d36e3;
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
+
+
 footer {
   /* height: 30vh; */
   background: linear-gradient(8deg, #0f3d3e 50%, #000000 50%);
@@ -188,8 +259,6 @@ footer {
   justify-content: center;
 }
 
-/* .footer_First , .footer_Second , .footer_Third{
-} */
 
 .footer_First {
   width: 20vw;
@@ -253,6 +322,17 @@ footer {
     width: 55vw;
     margin-left: 25px;
   }
+  .ContentPage3 .Page3First img{
+    width: 250px;
+  }
+  .Page3Second{
+    width: 40vw;
+    text-align: justify;
+  }
+  .Page3Second h1{
+    font-size: 55px;
+    
+  }
 }
 
 @media only screen and (max-width: 727px) {
@@ -268,6 +348,23 @@ footer {
   .footer_Second{
     /* display: none; */
     font-size: 80px;
+  }
+  .ContentPage3{
+    flex-direction: column;
+    height: auto;
+    padding:50px 0px;
+  }
+
+  .Page3First img{
+    margin-bottom: 50px;
+    width: 200px;
+  }
+  #AboutPara{
+    width: 85vw;
+  }
+
+  .Page3Second{
+    width: 80vw;
   }
 }
 
@@ -353,5 +450,16 @@ footer {
   }
   .First_second h2{
     font-size: 19px;
+  }
+
+  .footer_First{
+    margin-left: -20vw;
+  }
+  .Page3Second{
+    width: 70vw;
+  }
+
+  .Page3Second button{
+    margin-right: 10px;
   }
 }
