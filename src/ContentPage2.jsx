@@ -11,6 +11,10 @@ const ContentPage2 = () => {
               <div className="ProjectImg">
                 <a href={curr.link} target="_blank">
                   <img src={curr.Image} alt="" />
+                  <div className="onhover">
+                    <h2>{curr.text}</h2>
+                    <p>{curr.para}</p>
+                  </div>
                 </a>
               </div>
               <h2>{curr.text}</h2>

@@ -48,31 +48,37 @@ const Data = {
       text: "Portfolio",
       Image: Portfolio,
       link: "https://shubhamjoshii.github.io/Portfolio2.0/",
+      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis." 
     },
     {
       text: "Hotstar Clone",
       Image: Hotstar,
       link: "https://shubhamjoshii.github.io/Hotstar-Clone/",
+      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis."
     },
     {
       text: "Quotes Generator",
       Image: Quotes,
       link: "https://shubhamjoshii.github.io/quotesGenerator/",
+      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis."
     },
     {
       text: "Digital Clock",
       Image: DigitalClock,
       link: "https://shubhamjoshii.github.io/Digital-Clock/",
+      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis."
     },
     {
       text: "Password Generator",
       Image: Password,
       link: "https://shubhamjoshii.github.io/PasswordGenerator/",
+      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis."
     },
     {
       text: "For more Click Here!",
       Image: formore,
       link: "https://github.com/ShubhamJoshii",
+      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis."
     },
   ],
 };

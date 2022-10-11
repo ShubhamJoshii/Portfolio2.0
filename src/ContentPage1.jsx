@@ -1,7 +1,8 @@
 import Data from "./AllData";
-
+import arrowDown from "./Images/Arrowdown.gif";
 const ContentPage1 = () => {
   return (
+    <>
     <div className="ContentPage1" id="home">
       <div>
         <img src={Data.MainPageImg} alt="Hello" id="FrontImg" />
@@ -16,7 +17,13 @@ const ContentPage1 = () => {
           creating interactive application and experiences on the web{" "}
         </h2>
       </div>
+      <div className="slideBtn">
+      <a href="#AboutMe">
+        <img src={arrowDown}  alt="Arrow Down" />
+      </a>
+      </div>
     </div>
+    </>
   );
 };
 
