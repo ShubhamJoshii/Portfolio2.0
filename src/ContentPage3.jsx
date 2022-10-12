@@ -48,7 +48,7 @@ const TopicData = {
 };
 
 const ContentPage3 = () => {
-  let i = TopicData.Skills;
+  // let i = TopicData.Skills;
   const [Count, setCount] = useState(0);
   let TopicArr = [TopicData.Skills, TopicData.Experience, TopicData.Education];
   return (
@@ -92,7 +92,7 @@ const ContentPage3 = () => {
           </button>
           <div className="SkillsPage3">
             {TopicArr[Count].map((Curr) => {
-              console.log(Curr);
+              {/* console.log(Curr); */}
               return (
                 <>
                   <p id="topic">{Curr.Topic}</p>

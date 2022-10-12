@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footer_Third">
         {Data.SocialLogo.map((curr) => {
           return (
-            <a href={curr.link} target="_blank" id="SocialImg">
+            <a href={curr.link} target="_blank" rel="noopener noreferrer" id="SocialImg">
               <img src={curr.logo} alt="SocialImg" width="40px" />
             </a>
           );

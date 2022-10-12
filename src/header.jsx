@@ -20,7 +20,7 @@ const Header = () => {
             {Data.SocialLogo.map((curr) => {
               return (
                 <li>
-                  <a href={curr.link} target="_blank">
+                  <a href={curr.link} target="_blank" rel="noopener noreferrer">
                     <img src={curr.logo} alt="Logo" width="15px" /> {curr.text}
                   </a>
                 </li>
@@ -34,7 +34,7 @@ const Header = () => {
             {Data.Project.map((curr) => {
               return (
                 <li>
-                  <a href={curr.link} target="_blank">
+                  <a href={curr.link} target="_blank" rel="noopener noreferrer">
                     {curr.text}
                   </a>
                 </li>
@@ -43,7 +43,7 @@ const Header = () => {
           </ul>
         </li>
         <li>
-          <a href={Data.resume} target="_blank">
+          <a href={Data.resume} target="_blank" rel="noopener noreferrer">
             Resume
           </a>
         </li>

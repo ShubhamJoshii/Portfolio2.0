@@ -1,19 +1,28 @@
 // import { useEffect } from "react";
 import Data from "./AllData";
 import arrowDown from "./Images/Arrowdown.gif";
-import React, { useEffect } from "react";
+import React from "react";
 // import { click } from "@testing-library/user-event/dist/click";
 const ContentPage1 = () => {
   let NameText = "Shubham Joshi";
-  let i = 0;
+  let i = 0 , count = 0;
   setInterval(() => {
     if (i < NameText.length) {
       document.getElementsByClassName("AutoType")[0].innerHTML += NameText[i];
       document.getElementsByClassName("AutotypeRemove")[0].style.display = "inline";
     }
-    if (i == NameText.length) {
+    if (i === NameText.length) {
       document.getElementsByClassName("AutotypeRemove")[0].style.display = "none";
+      if(count === 0){
+        NameText = "Web Developer"
+        document.getElementsByClassName("AutoType")[0].innerHTML="W";
+        count++;
+      }
+      else{
+        NameText = "Shubham Joshi";
         document.getElementsByClassName("AutoType")[0].innerHTML="S";
+        count--;
+      }
       i = 0;
     }
     i++;
