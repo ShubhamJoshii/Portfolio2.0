@@ -9,11 +9,14 @@ const ContentPage2 = () => {
           return (
             <div className="ProjectSummInner">
               <div className="ProjectImg">
-                <a href={curr.link} target="_blank">
+                <a target="_blank">
                   <img src={curr.Image} alt="" />
                   <div className="onhover">
                     <h2>{curr.text}</h2>
                     <p>{curr.para}</p>
+                    <a href={curr.link} target="_blank">
+                      <i class="fa-solid ExtLink fa-arrow-up-right-from-square"></i>
+                    </a>
                   </div>
                 </a>
               </div>
