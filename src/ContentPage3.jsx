@@ -4,12 +4,12 @@ import React, { useState } from "react";
 const TopicData = {
   Skills: [
     {
-      Topic: "UI/UX",
-      SubTopic: "Designing Web Interfaces",
-    },
-    {
       Topic: "Web Development",
       SubTopic: "Web App Development",
+    },
+    {
+      Topic: "UI/UX",
+      SubTopic: "Designing Web Interfaces",
     },
     {
       Topic: "App Development",
