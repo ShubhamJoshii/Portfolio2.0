@@ -310,6 +310,111 @@ li a {
   margin-bottom: 3px;
 }
 
+.ContentPage5{
+  background-color: #000000;
+  color: White;
+  font-family: sans-serif;
+  display: flex;
+  /* height: 90vh; */
+  padding: 80px 0px ;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px dotted white;
+}
+
+.ContentPage5 h1{
+  font-size: 60px;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+
+
+.ContentPage5 .Contact1 h3{
+  font-weight: 300;
+  font-size: 17px;
+}
+.Contact1Inner{
+  display: flex;
+  /* justify-content: center; */
+  padding-bottom: 13px;
+  align-items: center;
+}
+
+.Contact1Inner img{
+  margin-right: 15px;
+}
+
+.ContactSocialLogo{
+  margin: 15px 0px 35px 0px;
+}
+
+.ContactSocialLogo img{
+  margin-right: 10px;
+}
+
+.ContactSocialLogo img:hover{
+  transform: scale(1.2);
+}
+
+.Contact1 button{
+  width: 100%;
+  border: 1px solid red;
+  font-size: 22px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(162, 14, 14, 0.852);
+}
+
+#CVdownload{
+  color: white;
+  text-decoration: none;
+}
+
+.Contact2{
+  margin-left: -100px;
+}
+
+.Contact2 input{
+  width: 40vw;
+  font-size: 17px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #1d1d1a;
+  border: none;
+}
+
+.Contact2 textarea{
+  margin-top: 15px;
+  border: none;
+  background-color: #1d1d1a;
+  padding: 7px;
+  width: 40vw;
+  height: 30vh;
+  font-size: 17px;
+  border-radius: 5px;
+  
+}
+
+.Contact2 button{
+  width: 100px;
+  border: none;
+  background-color: rgba(162, 14, 14, 0.852);
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.736);
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.ContentPage5 button:hover{
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.614);
+}
+
+
 footer {
   /* height: 30vh; */
   background: linear-gradient(8deg, #0f3d3e 50%, #000000 50%);
@@ -379,6 +484,9 @@ footer {
     width: 55vw;
     margin-left: 25px;
   }
+
+
+
   .ContentPage3 .Page3First img {
     width: 250px;
   }
@@ -392,6 +500,12 @@ footer {
   .slideBtn img {
     margin-top: 10px;
     width: 80px;
+  }
+  .Contact2{
+    margin-left: -10px;
+  }
+  .Contact1 h1{
+    font-size: 45px;
   }
 }
 
@@ -431,6 +545,18 @@ footer {
   .slideBtn img {
     margin-top: 35px;
     width: 60px;
+  }
+  .ContentPage5{
+    flex-direction: column;
+  }
+  .Contact2{
+    margin-top: 50px;
+  }
+  .Contact2 input{
+    width: 80vw;
+  }
+  .Contact2 textarea{
+    width: 80vw;
   }
 }
 

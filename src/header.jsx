@@ -14,7 +14,7 @@ const Header = () => {
         <li>
           <a href="#AboutMe">About Us</a>
         </li>
-        <li>
+        <li onDoubleClick=".ContentPage5">
           Contact
           <ul className="DropDown">
             {Data.SocialLogo.map((curr) => {
