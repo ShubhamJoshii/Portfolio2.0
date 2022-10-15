@@ -14,7 +14,7 @@ const Header = () => {
         <li>
           <a href="#AboutMe">About Us</a>
         </li>
-        <li onDoubleClick=".ContentPage5">
+        <li>
           Contact
           <ul className="DropDown">
             {Data.SocialLogo.map((curr) => {
@@ -31,10 +31,10 @@ const Header = () => {
         <li>
           Projects
           <ul className="DropDown">
-            {Data.Project.map((curr) => {
+            {Data.Project.map((curr, id) => {
               return (
                 <li>
-                  <a href={curr.link} target="_blank" rel="noopener noreferrer">
+                  <a href={curr.link}  key={id} target="_blank" rel="noopener noreferrer">
                     {curr.text}
                   </a>
                 </li>

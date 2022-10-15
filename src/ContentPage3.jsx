@@ -74,11 +74,13 @@ const ContentPage3 = () => {
             }}
           >
             Skills
+            <div className="lineSkills lineSkillsColor"></div>
           </button>
           <button
             id="Btn2"
             onClick={() => {
               setCount(1)
+              document.getElementsByClassName("lineSkillsColor")[0].style.display="none";
             }}
           >
             Experience
@@ -86,16 +88,17 @@ const ContentPage3 = () => {
           <button
             onClick={() => {
               setCount(2);
+              document.getElementsByClassName("lineSkillsColor")[0].style.display="none";
             }}
           >
             Education
           </button>
           <div className="SkillsPage3">
-            {TopicArr[Count].map((Curr) => {
+            {TopicArr[Count].map((Curr , id) => {
               {/* console.log(Curr); */}
               return (
                 <>
-                  <p id="topic">{Curr.Topic}</p>
+                  <p id="topic">{Curr.Topic} </p>
                   <p>{Curr.SubTopic}</p>
                   {/* <p id="topic">{}</p>
                 <p></p>
@@ -114,6 +117,7 @@ const ContentPage3 = () => {
           {/* <p>Buliding Android Apps</p> */}
         </div>
       </div>
+      <a href="#home" id="ToTopBtn"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
   );
 };

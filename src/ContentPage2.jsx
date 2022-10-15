@@ -1,21 +1,28 @@
 import Data from "./AllData";
 
 const ContentPage2 = () => {
+  // console.log(Data.Project.LanguageUse[0])
   return (
     <div className="ContentPage2">
       <h1>Projects</h1>
       <div className="ProjectSumm">
-        {Data.Project.map((curr) => {
+        {Data.Project.map((curr, id) => {
           return (
-            <div className="ProjectSummInner">
+            <div className="ProjectSummInner" key={id}>
               <div className="ProjectImg">
-                <a target="_blank" href="." rel="noopener noreferrer" >
+                <a target="_blank" href="." rel="noopener noreferrer">
                   <img src={curr.Image} alt="" />
                   <div className="onhover">
                     <h2>{curr.text}</h2>
                     <p>{curr.para}</p>
-                    <a href={curr.link} target="_blank" rel="noopener noreferrer" >
-                      <i class="fa-solid ExtLink fa-arrow-up-right-from-square"></i>
+                    <p>{curr.LanguageUse}</p>
+
+                    <a
+                      href={curr.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa-solid ExtLink fa-arrow-up-right-from-square"></i>
                     </a>
                   </div>
                 </a>

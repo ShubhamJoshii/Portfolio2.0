@@ -40,9 +40,9 @@ import axios from "axios";
           <h3>880024****</h3>
         </div>
         <div className="ContactSocialLogo">
-          {Data.SocialLogo.map((curr) => {
+          {Data.SocialLogo.map((curr, id) => {
             return (
-              <a href={curr.link} target="_blank" rel="noopener noreferrer">
+              <a href={curr.link} key={id} target="_blank" rel="noopener noreferrer">
                 <img src={curr.logo} alt="Social Logo" width="40px" />
               </a>
             );

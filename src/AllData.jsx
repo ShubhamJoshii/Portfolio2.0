@@ -48,37 +48,42 @@ const Data = {
       text: "Portfolio",
       Image: Portfolio,
       link: "https://shubhamjoshii.github.io/Portfolio2.0/",
-      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis." 
+      para:"Language Use ",
+      LanguageUse:["HTML", "CSS", "React JS"]
     },
     {
       text: "Hotstar Clone",
+
       Image: Hotstar,
       link: "https://shubhamjoshii.github.io/Hotstar-Clone/",
-      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis."
+      para:"Language Use ",
+      LanguageUse:["HTML", "CSS", "React JS"]
     },
     {
       text: "Quotes Generator",
       Image: Quotes,
       link: "https://shubhamjoshii.github.io/quotesGenerator/",
-      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis."
+      para:"Language Use ",
+      LanguageUse:["HTML", "CSS", "React JS"]
     },
     {
       text: "Digital Clock",
       Image: DigitalClock,
       link: "https://shubhamjoshii.github.io/Digital-Clock/",
-      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis."
+      para:"Language Use ",
+      LanguageUse:["HTML","CSS", "React JS"]
     },
     {
       text: "Password Generator",
       Image: Password,
       link: "https://shubhamjoshii.github.io/PasswordGenerator/",
-      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis."
+      para:"Language Use ",
+      LanguageUse:["HTML", "CSS", "React JS"]
     },
     {
       text: "For more Click Here!",
       Image: formore,
-      link: "https://github.com/ShubhamJoshii",
-      para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum ducimus, quo cumque facere iusto laboriosam at ipsa explicabo corrupti perferendis ipsum reiciendis in, porro sequi repellendus impedit. Quibusdam, debitis."
+      link: "https://github.com/ShubhamJoshii"
     },
   ],
 };

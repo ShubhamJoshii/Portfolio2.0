@@ -12,9 +12,9 @@ const Footer = () => {
         <div className="lines"></div>
       </div>
       <div className="footer_Third">
-        {Data.SocialLogo.map((curr) => {
+        {Data.SocialLogo.map((curr,id) => {
           return (
-            <a href={curr.link} target="_blank" rel="noopener noreferrer" id="SocialImg">
+            <a href={curr.link} key = {id} target="_blank" rel="noopener noreferrer" id="SocialImg">
               <img src={curr.logo} alt="SocialImg" width="40px" />
             </a>
           );
