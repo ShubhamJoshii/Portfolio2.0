@@ -123,7 +123,22 @@ li a {
   /* border: 5px solid #ff3c00c4; */
   /* border: 10px solid white; */
   border: 5px solid rgba(255, 230, 0, 0.658);
+  animation-name: FrontImgAnimation;
+  animation-duration: 1s;
+  filter: contrast(1.1);
 }
+
+@keyframes FrontImgAnimation{
+  0%{
+    opacity: 0;
+    margin-top: 50px;
+  }
+  100%{
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
 
 .First_second {
   color: #fffefe;
@@ -209,15 +224,6 @@ li a {
   /* animation-name: Effect;
   animation-duration: 4s; */
 }
-/* 
-@keyframes Effect{
-  from{
-    transform: scale(0.5);
-  }
-  to{
-    transform: scale(1.5);
-  }
-} */
 
 .ProjectSummInner:hover {
   transform: scale(1.1);

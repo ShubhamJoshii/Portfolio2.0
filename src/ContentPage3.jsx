@@ -54,7 +54,7 @@ const ContentPage3 = () => {
   return (
     <div className="ContentPage3" id="AboutMe">
       <div className="Page3First">
-        <img src={Data.Shubham2} alt="Image" />
+        <img src={Data.Shubham2} alt="ImageMain" />
       </div>
       <div className="Page3Second">
         <div className="Page3Fixed">
@@ -95,7 +95,7 @@ const ContentPage3 = () => {
           </button>
           <div className="SkillsPage3">
             {TopicArr[Count].map((Curr , id) => {
-              {/* console.log(Curr); */}
+              // console.log(Curr);
               return (
                 <>
                   <p id="topic">{Curr.Topic} </p>
