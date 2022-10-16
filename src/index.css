@@ -5,6 +5,21 @@
 html {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-track{
+  /* border-radius: 10px; */
+  box-shadow: inset 0 0 5px black;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background-color: #0f3d3e;
+} 
+
+
 .Header {
   display: flex;
   background-color: rgba(0, 0, 0, 0.727);
@@ -191,10 +206,21 @@ li a {
 
 .ProjectSummInner {
   margin: 30px 0px;
+  /* animation-name: Effect;
+  animation-duration: 4s; */
 }
+/* 
+@keyframes Effect{
+  from{
+    transform: scale(0.5);
+  }
+  to{
+    transform: scale(1.5);
+  }
+} */
 
 .ProjectSummInner:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 
 .ProjectImg {
@@ -519,6 +545,17 @@ footer {
   transform: scale(1.2);
 }
 
+
+.DateFooter{
+background-color: #000000;
+color: white;
+text-align: end;
+padding: 0px 50px;
+}
+
+.DateFooter pre{
+  text-align: center;
+}
 @media only screen and (max-width: 960px) {
   .First_second {
     width: 55vw;

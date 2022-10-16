@@ -1,5 +1,6 @@
-import Data from "./AllData";
-
+import Data, {useEffect} from "./AllData";
+import AOS from "aos"
+import "aos/dist/aos.css"
 const ContentPage2 = () => {
   // console.log(Data.Project.LanguageUse[0])
   return (
