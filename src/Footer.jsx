@@ -3,9 +3,9 @@ import { useState } from "react";
 const Footer = () => {
   let TimeAndDate = new Date();
   let dates = TimeAndDate.toLocaleTimeString();
-  let i = TimeAndDate.getDay();
-  let Day = ["SUN", "MON", "TUES", "WED", "THUR", "FRI", "SAT"];
-  // console.log(Day[i]);
+  // let i = TimeAndDate.getDay();
+  // let Day = ["SUN", "MON", "TUES", "WED", "THUR", "FRI", "SAT"];
+
 
   const [timing, setTiming] = useState(dates);
   setInterval(() => {
@@ -40,10 +40,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="DateFooter">
-        {/* <h3>
-          
-        </h3> */}
-        <pre>All right reserved 2022 - www.shubhamJoshi {timing}</pre>
+        <p>All right reserved 2022 - www.shubhamJoshi {timing}</p>
       </div>
 
     </>

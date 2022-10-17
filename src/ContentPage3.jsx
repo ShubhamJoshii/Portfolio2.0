@@ -9,7 +9,7 @@ const ContentPage3 = () => {
     Data.TopicData.Experience,
     Data.TopicData.Education,
   ];
-  console.log(Data.TopicData);
+  // console.log(Data.TopicData);
   return (
     <div className="ContentPage3" id="AboutMe">
       <div className="Page3First">
@@ -42,6 +42,7 @@ const ContentPage3 = () => {
               document.getElementsByClassName(
                 "lineSkillsColor"
               )[0].style.display = "none";
+              
             }}
           >
             Experience
@@ -49,9 +50,7 @@ const ContentPage3 = () => {
           <button
             onClick={() => {
               setCount(2);
-              document.getElementsByClassName(
-                "lineSkillsColor"
-              )[0].style.display = "none";
+              document.getElementsByClassName("lineSkillsColor")[0].style.display = "none";
             }}
           >
             Education
@@ -66,7 +65,7 @@ const ContentPage3 = () => {
                   <p className="subtopic">
                     {Curr.SubTopic}
 
-                    <div className="SkillsOnHover">
+                    <div className="SkillsOnHover" id="SkillsOnHover">
                       <div className="triangle"></div>
                       <div className="SkillsDisplay">
                         <div>
@@ -77,7 +76,7 @@ const ContentPage3 = () => {
                           <div id="SkillsLine">
                             <div
                               className="SkillsLineInner"
-                              style={{ width: Curr.HoverTopic1Perc}}
+                              style={{ width: Curr.HoverTopic1Perc }}
                             ></div>
                           </div>
                         </div>
@@ -101,7 +100,7 @@ const ContentPage3 = () => {
                           <div id="SkillsLine">
                             <div
                               className="SkillsLineInner"
-                              style={{ width: Curr.HoverTopic3Perc}}
+                              style={{ width: Curr.HoverTopic3Perc }}
                             ></div>
                           </div>
                         </div>
@@ -113,7 +112,7 @@ const ContentPage3 = () => {
                           <div id="SkillsLine">
                             <div
                               className="SkillsLineInner"
-                              style={{ width: Curr.HoverTopic4Perc}}
+                              style={{ width: Curr.HoverTopic4Perc }}
                             ></div>
                           </div>
                         </div>

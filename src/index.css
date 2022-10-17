@@ -289,8 +289,6 @@ li a {
   border-top: 1px dotted white;
 }
 
-/* .Page3First{
-} */
 
 .ContentPage3 .Page3First img {
   width: 350px;
@@ -400,10 +398,7 @@ li a {
   background-color: #0f3d3e;
 }
 
-/* .subtopic div:nth-child(2){
-  display: none;
-  /* opacity: 0; */
-/* } */ */
+
 
 .SkillsDisplay #SkillsLine{
   width: 100%;
@@ -600,13 +595,17 @@ footer {
 .DateFooter {
   background-color: #000000;
   color: white;
-  text-align: end;
-  padding: 0px 50px;
+  text-align: center;
+  /* padding: 0px 50px; */
 }
 
 .DateFooter pre {
   text-align: center;
 }
+
+
+
+
 @media only screen and (max-width: 960px) {
   .First_second {
     width: 55vw;

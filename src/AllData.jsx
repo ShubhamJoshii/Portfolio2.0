@@ -87,12 +87,35 @@ const Data = {
       link: "https://github.com/ShubhamJoshii",
     },
   ],
+  Certificate : [
+    {
+      text : "NPTEL",
+      para : "National Programme on Technology Enhanced Learning (NPTEL)",
+    }
+  ],
   TopicData: {
     Skills: [
       {
         Topic: "Web Development",
         SubTopic: "Web App Development",
-
+        HoverTopic: [
+          {
+            Head: "HTML",
+            Perc: "95%",
+          },
+          {
+            Head: "HTML",
+            Perc: "95%",
+          },
+          {
+            Head: "HTML",
+            Perc: "95%",
+          },
+          {
+            Head: "HTML",
+            Perc: "95%",
+          },
+        ],
         HoverTopic1: "HTML",
         HoverTopic1Perc: "95%",
         HoverTopic2: "CSS",
@@ -131,30 +154,60 @@ const Data = {
       {
         Topic: "2021 - Current",
         SubTopic: "Freelancer",
+        HoverTopic1: "Own Freelancer",
+        HoverTopic1Perc: "90%",
+        // HoverTopic2: "",
+        // HoverTopic2Perc: "80%",
+        // HoverTopic3: "",
+        // HoverTopic3Perc: "",
+        // HoverTopic4: "",
+        // HoverTopic4Perc: "100%"
       },
       {
         Topic: "2022",
         SubTopic: "Certification On Data Structure On Python by NPTEL",
+        HoverTopic1:
+          "National Programme on Technology Enhanced Learning (NPTEL)",
+        HoverTopic1Perc: "80%",
+        // HoverTopic2: "",
+        // HoverTopic2Perc: "",
+        // HoverTopic3: "",
+        // HoverTopic3Perc: "",
+        // HoverTopic4: "",
+        // HoverTopic4Perc: ""
       },
       {
         Topic: "2022",
         SubTopic:
           "Front-End Web Development From Google Developer Student Clubs and Microsoft Learn Student Ambassadors Conducted by Devtown ",
+        HoverTopic1: "Front-End Web Development",
+        HoverTopic1Perc: "100%",
+        // HoverTopic2: "",
+        // HoverTopic2Perc: "",
+        // HoverTopic3: "",
+        // HoverTopic3Perc: "",
+        // HoverTopic4: "",
+        // HoverTopic4Perc: ""
       },
     ],
     Education: [
       {
         Topic: "2021 - Current",
-        SubTopic:
-          "Bachelor of Computer Applications(BCA) at Vivekananda Institute of Professional Studies",
+        SubTopic: "Bachelor of Computer Applications(BCA)",
+        HoverTopic1: " Vivekananda Institute of Professional Studies - TC",
+        HoverTopic1Perc: "Pursing",
       },
       {
         Topic: "2020 - 2021",
         SubTopic: "Schooling at Kendriya Vidyalaya",
+        HoverTopic1: "Central Board of Secondary Education",
+        HoverTopic1Perc: "85%",
       },
       {
         Topic: "2018 - 2019",
         SubTopic: "Schooling at Kendriya Vidyalaya",
+        HoverTopic1: "Central Board of Secondary Education",
+        HoverTopic1Perc: "80%",
       },
     ],
   },
