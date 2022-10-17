@@ -6,19 +6,22 @@ html {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+body{
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
   width: 5px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   /* border-radius: 10px; */
   box-shadow: inset 0 0 5px black;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   border-radius: 20px;
   background-color: #0f3d3e;
-} 
-
+}
 
 .Header {
   display: flex;
@@ -128,17 +131,16 @@ li a {
   filter: contrast(1.1);
 }
 
-@keyframes FrontImgAnimation{
-  0%{
+@keyframes FrontImgAnimation {
+  0% {
     opacity: 0;
     margin-top: 50px;
   }
-  100%{
+  100% {
     opacity: 1;
     margin-top: 0px;
   }
 }
-
 
 .First_second {
   color: #fffefe;
@@ -163,25 +165,23 @@ li a {
   text-decoration: dashed;
 }
 
-.AutotypeRemove{
+.AutotypeRemove {
   animation: blink 1.5s linear infinite;
 }
 
 @keyframes blink {
-  25%{
+  25% {
     opacity: 0;
   }
-  50%{
+  50% {
     opacity: 0.5;
   }
-  75%{
+  75% {
     opacity: 0.75;
   }
-  100%{
+  100% {
     opacity: 1;
   }
-
-
 }
 /* 
 .ContentPage1 #ToTopBtn{
@@ -331,25 +331,21 @@ li a {
 .Page3Second button:hover,
 .Page3Second button:focus {
   border-bottom: 3px solid #bc2c4d;
-  /* outline: ; */
 }
 
-.lineSkills{
+.lineSkills {
   width: 100px;
   height: 3px;
 }
 
-.lineSkillsColor{
+.lineSkillsColor {
   background-color: #bc2c4d;
 }
 
-#ToTopBtn{
-  /* text-align: center; */
+#ToTopBtn {
   padding: 10px;
   position: fixed;
-  /* position: sticky; */
   top: 90vh;
-  /* left: 94.5vw; */
   right: -90px;
   border-radius: 5px;
   width: 150px;
@@ -358,72 +354,127 @@ li a {
   font-size: 40px;
   font-weight: bolder;
   color: white;
+  /* text-align: center; */
+  /* position: sticky; */
+  /* left: 94.5vw; */
 }
-
-/* .Page3Fixed{
-  position:absolute;
-  top: 10px;
-}
-
-.Page3FixedSec{
-  position:absolute;
-
-} */
 
 #topic {
   color: #7e2d36e3;
   margin-top: 12px;
   margin-bottom: 3px;
+  cursor: pointer;
+}
+.SkillsOnHover {
+  display: none;
+  margin-left: 17vw;
+  position: absolute;
+  background-color: #d9d9d9;
+  width: 30vw;
+  /* height: 30vh; */
+  margin-top: -60px;
+  border-radius: 10px;
+
 }
 
-.ContentPage5{
+.SkillsDisplay{
+  color: #000000;
+  z-index: 9999;
+  margin: 10px;
+}
+.SkillsDisplay p{
+  padding-top: 5px;
+}
+
+.SkillsDisplayTopic{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.SkillsLineInner{
+  /* width: 100%; */
+  /* color: #ff0000; */
+  height: 4px;
+  background-color: #0f3d3e;
+}
+
+/* .subtopic div:nth-child(2){
+  display: none;
+  /* opacity: 0; */
+/* } */ */
+
+.SkillsDisplay #SkillsLine{
+  width: 100%;
+  height: 3.5px;
+  background-color: #0000006d;
+}
+
+.triangle {
+  background-color: #d9d9d9;
+  width: 3vw;
+  height: 3vw;
+  z-index: 1;
+  margin-left: -1.3vw ;
+  margin-top: 2vh;
+  border-radius: 5px;
+  transform: rotate(45deg);
+}
+
+.subtopic:hover .SkillsOnHover {
+  display: block;
+
+  color: white;
+}
+
+
+.ContentPage5 {
   background-color: #000000;
   color: White;
   font-family: sans-serif;
   display: flex;
   /* height: 90vh; */
-  padding: 80px 0px ;
+  padding: 80px 0px;
   justify-content: space-evenly;
   align-items: center;
   border-bottom: 1px dotted white;
 }
 
-.ContentPage5 h1{
+.ContentPage5 h1 {
   font-size: 60px;
   font-weight: bolder;
   margin-bottom: 40px;
 }
 
-
-
-.ContentPage5 .Contact1 h3{
+.ContentPage5 .Contact1 h3 {
   font-weight: 300;
   font-size: 17px;
 }
-.Contact1Inner{
+.Contact1Inner {
   display: flex;
   /* justify-content: center; */
   padding-bottom: 13px;
   align-items: center;
 }
 
-.Contact1Inner img{
+.Contact1Inner img {
   margin-right: 15px;
 }
 
-.ContactSocialLogo{
+.ContactSocialLogo {
   margin: 15px 0px 35px 0px;
 }
 
-.ContactSocialLogo img{
+.ContactSocialLogo img {
   margin-right: 10px;
 }
 
-.ContactSocialLogo img:hover{
+.ContactSocialLogo img:hover {
   transform: scale(1.2);
 }
 
-.Contact1 button{
+.Contact1 button {
   width: 100%;
   border: 1px solid red;
   font-size: 22px;
@@ -432,16 +483,16 @@ li a {
   background-color: rgba(162, 14, 14, 0.852);
 }
 
-#CVdownload{
+#CVdownload {
   color: white;
   text-decoration: none;
 }
 
-.Contact2{
+.Contact2 {
   margin-left: -100px;
 }
 
-.Contact2 input{
+.Contact2 input {
   width: 40vw;
   font-size: 17px;
   margin-bottom: 25px;
@@ -452,7 +503,7 @@ li a {
   color: white;
 }
 
-.Contact2 textarea{
+.Contact2 textarea {
   color: white;
   margin-top: 15px;
   border: none;
@@ -462,11 +513,9 @@ li a {
   height: 30vh;
   font-size: 17px;
   border-radius: 5px;
-  
 }
 
-
-.Contact2 button{
+.Contact2 button {
   width: 100px;
   cursor: pointer;
   border: none;
@@ -478,14 +527,11 @@ li a {
   margin-top: 20px;
 }
 
-.ContentPage5 button:hover{
+.ContentPage5 button:hover {
   color: white;
   transform: scale(1.1);
   box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.614);
 }
-
-
-
 
 footer {
   /* height: 30vh; */
@@ -551,15 +597,14 @@ footer {
   transform: scale(1.2);
 }
 
-
-.DateFooter{
-background-color: #000000;
-color: white;
-text-align: end;
-padding: 0px 50px;
+.DateFooter {
+  background-color: #000000;
+  color: white;
+  text-align: end;
+  padding: 0px 50px;
 }
 
-.DateFooter pre{
+.DateFooter pre {
   text-align: center;
 }
 @media only screen and (max-width: 960px) {
@@ -568,11 +613,10 @@ padding: 0px 50px;
     margin-left: 25px;
   }
 
-  #ToTopBtn{
+  #ToTopBtn {
     top: 92vh;
     right: -110px;
   }
-
 
   .ContentPage3 .Page3First img {
     width: 250px;
@@ -588,10 +632,10 @@ padding: 0px 50px;
     margin-top: 10px;
     width: 80px;
   }
-  .Contact2{
+  .Contact2 {
     margin-left: -10px;
   }
-  .Contact1 h1{
+  .Contact1 h1 {
     font-size: 45px;
   }
 }
@@ -611,7 +655,7 @@ padding: 0px 50px;
     /* display: none; */
     font-size: 80px;
   }
-/* 
+  /* 
   #ToTopBtn{
     right: -4vw;
   } */
@@ -637,16 +681,16 @@ padding: 0px 50px;
     margin-top: 35px;
     width: 60px;
   }
-  .ContentPage5{
+  .ContentPage5 {
     flex-direction: column;
   }
-  .Contact2{
+  .Contact2 {
     margin-top: 50px;
   }
-  .Contact2 input{
+  .Contact2 input {
     width: 80vw;
   }
-  .Contact2 textarea{
+  .Contact2 textarea {
     width: 80vw;
   }
 }
