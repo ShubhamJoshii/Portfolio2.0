@@ -375,6 +375,10 @@ li a {
 
 }
 
+#HoverSkillsPerc{
+  padding-left: 20px;
+}
+
 .SkillsDisplay{
   color: #000000;
   z-index: 9999;
@@ -599,8 +603,11 @@ footer {
   /* padding: 0px 50px; */
 }
 
-.DateFooter pre {
-  text-align: center;
+.DateFooter h4 {
+  text-align: end;
+  margin-right: 20px;
+  font-weight: 100;
+  font-family: sans-serif;
 }
 
 
@@ -640,6 +647,13 @@ footer {
 }
 
 @media only screen and (max-width: 727px) {
+  .Header h1{
+    width: 40vw;
+  }
+
+  .Header .Orderheader{
+    width: 60vw;
+  }
   .ContentPage1 {
     flex-direction: column;
   }
@@ -692,6 +706,10 @@ footer {
   .Contact2 textarea {
     width: 80vw;
   }
+
+  .SkillsOnHover{
+    width: 70vw;
+  }
 }
 
 @media only screen and (max-width: 655px) {
@@ -699,20 +717,8 @@ footer {
     width: 100vw;
   }
 
-  .slideBtn img {
-    margin-top: 40px;
-    width: 60px;
-  }
-  .First_second {
-    margin-bottom: 100px;
-  }
-  .footer_Second {
-    /* display: none; */
-    /* font-size: 80px; */
-    color: #00000000;
-  }
   .Header h1 {
-    width: 80vw;
+    width: 83vw;
     font-size: 25px;
   }
 
@@ -748,6 +754,18 @@ footer {
   .Header:hover .Orderheader {
     /* opacity: 1; */
     display: block;
+  }
+  .slideBtn img {
+    margin-top: 40px;
+    width: 60px;
+  }
+  .First_second {
+    margin-bottom: 100px;
+  }
+  .footer_Second {
+    /* display: none; */
+    /* font-size: 80px; */
+    color: #00000000;
   }
   #LineOuter {
     display: none;
@@ -793,8 +811,18 @@ footer {
     font-size: 19px;
   }
 
-  .footer_First {
-    margin-left: -20vw;
+  footer{
+    justify-content: space-evenly;
+    padding-left: 20px;
+  }
+
+  .footer_Second{
+    width: 0vw;
+  }
+
+  .footer_Third {
+    width: 254px;
+    /* margin-left: -20vw; */
   }
   .Page3Second {
     width: 70vw;

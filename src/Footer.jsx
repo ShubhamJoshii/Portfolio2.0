@@ -41,6 +41,7 @@ const Footer = () => {
       </footer>
       <div className="DateFooter">
         <p>All right reserved 2022 - www.shubhamJoshi {timing}</p>
+        <h4>Last Update 18 Oct 2022</h4>
       </div>
 
     </>

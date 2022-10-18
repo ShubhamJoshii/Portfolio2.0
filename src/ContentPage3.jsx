@@ -71,7 +71,7 @@ const ContentPage3 = () => {
                         <div>
                           <div className="SkillsDisplayTopic">
                             <div>{Curr.HoverTopic1}</div>
-                            <div>{Curr.HoverTopic1Perc}</div>
+                            <div id="HoverSkillsPerc">{Curr.HoverTopic1Perc}</div>
                           </div>
                           <div id="SkillsLine">
                             <div
@@ -83,7 +83,7 @@ const ContentPage3 = () => {
                         <div>
                           <div className="SkillsDisplayTopic">
                             <div>{Curr.HoverTopic2}</div>
-                            <div>{Curr.HoverTopic2Perc}</div>
+                            <div id="HoverSkillsPerc">{Curr.HoverTopic2Perc}</div>
                           </div>
                           <div id="SkillsLine">
                             <div
@@ -95,7 +95,7 @@ const ContentPage3 = () => {
                         <div>
                           <div className="SkillsDisplayTopic">
                             <div>{Curr.HoverTopic3}</div>
-                            <div>{Curr.HoverTopic3Perc}</div>
+                            <div id="HoverSkillsPerc">{Curr.HoverTopic3Perc}</div>
                           </div>
                           <div id="SkillsLine">
                             <div
@@ -107,7 +107,7 @@ const ContentPage3 = () => {
                         <div>
                           <div className="SkillsDisplayTopic">
                             <div>{Curr.HoverTopic4}</div>
-                            <div>{Curr.HoverTopic4Perc}</div>
+                            <div id="HoverSkillsPerc">{Curr.HoverTopic4Perc}</div>
                           </div>
                           <div id="SkillsLine">
                             <div
