@@ -284,7 +284,8 @@ li a {
   justify-content: space-evenly;
   font-family: sans-serif;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
+  padding: 50px 0px;
   border-bottom: 1px dotted white;
   border-top: 1px dotted white;
 }
