@@ -599,18 +599,27 @@ footer {
 .DateFooter {
   background-color: #000000;
   color: white;
+  width: 100vw;
   text-align: center;
   /* padding: 0px 50px; */
 }
 
+.DateFooter div{
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 0px 100px; */
+  justify-content: space-between;
+}
+.DateFooter div p{
+  text-align: center;
+  width: 100%;
+}
 .DateFooter h4 {
   text-align: end;
   margin-right: 20px;
   font-weight: 100;
   font-family: sans-serif;
 }
-
-
 
 
 @media only screen and (max-width: 960px) {

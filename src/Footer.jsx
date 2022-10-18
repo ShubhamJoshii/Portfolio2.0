@@ -6,7 +6,6 @@ const Footer = () => {
   // let i = TimeAndDate.getDay();
   // let Day = ["SUN", "MON", "TUES", "WED", "THUR", "FRI", "SAT"];
 
-
   const [timing, setTiming] = useState(dates);
   setInterval(() => {
     dates = new Date().toLocaleTimeString();
@@ -40,10 +39,17 @@ const Footer = () => {
         </div>
       </footer>
       <div className="DateFooter">
-        <p>All right reserved 2022 - www.shubhamJoshi {timing}</p>
-        <h4>Last Update 18 Oct 2022</h4>
+        {/* <p>All right reserved 2022 - www.shubhamJoshi {timing}</p> */}
+        <div>
+          <p>
+            | TERMS & CONDITIONS PRIVACY POLICY   | | Last Update 18 Oct 2022 |
+          </p>
+          <p>
+            | Copyright 2022 ©️ Shubham Joshi. Website by Shubham Joshi {timing} |
+          </p>
+          {/* <p>| Last Update 18 Oct 2022 |</p> */}
+        </div>
       </div>
-
     </>
   );
 };
