@@ -3,7 +3,14 @@ import Data from "./AllData";
 import arrowDown from "./Images/Arrowdown.gif";
 import React from "react";
 // import { click } from "@testing-library/user-event/dist/click";
+import moon from "./Images/moon.png"
+import sun from "./Images/sun.png"
+import { useState } from "react";
+import { useEffect } from "react";
+
 const ContentPage1 = () => {
+  const [mode, setMode] = useState("darkmode")
+  const [modeLogo,setmodeLogo] = useState(sun)
   let NameText = "Shubham Joshi";
   let i = 0 , count = 0;
   setInterval(() => {
@@ -27,9 +34,20 @@ const ContentPage1 = () => {
     }
     i++;
   }, 400);
+  const modeChanger = ()=>{
+    (mode === "darkmode") ? (setMode("lightmode")) : (setMode("darkmode"));
+    (modeLogo === sun) ? (setmodeLogo(moon)) : (setmodeLogo(sun));
+    
+  }
+  useEffect(()=>{
+    document.body.classList = mode;
+  },[mode])
   return (
     <>
       <div className="ContentPage1" id="home">
+        <div className="modeChange" onClick={modeChanger}>
+          <img src={modeLogo} alt="ModechangerImg" width="35px" />
+        </div>
         <div>
           <img src={Data.MainPageImg} alt="Hello" id="FrontImg" />
         </div>

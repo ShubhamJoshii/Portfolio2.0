@@ -10,6 +10,16 @@ body{
   overflow-x: hidden;
 }
 
+.lightmode{
+  --bgColor : rgb(255, 255, 255);
+  --textColor : rgb(0, 0, 0);
+}
+
+.darkmode{
+  --bgColor : black;
+  --textColor : white;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -183,18 +193,24 @@ li a {
     opacity: 1;
   }
 }
+
+.modeChange{
+  position: fixed;
+  top: 8vh;
+  right: 15px;
+}
+
 /* 
 .ContentPage1 #ToTopBtn{
   display: none;
 } */
 
 .ContentPage2 {
-  background-color: #000000;
-  color: #fffefe;
+  background-color:  var(--bgColor);
+  color: var(--textColor);
   /* height: 100vh; */
-  border-top: 1px dotted white;
-  border-bottom: 1px dotted white;
-}
+  border-bottom: 1px dotted var(--textColor);
+  border-top: 1px dotted var(--textColor)}
 
 .slideBtn {
   /* width: 1px; */
@@ -232,7 +248,8 @@ li a {
 .ProjectImg {
   width: 325px;
   height: 205px;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  background-color: var(--textColor);
   border-radius: 20px;
   margin-bottom: 10px;
 }
@@ -278,16 +295,16 @@ li a {
 }
 
 .ContentPage3 {
-  background-color: #000000;
-  color: white;
+  background-color: var(--bgColor);
+  color: var(--textColor);
   display: flex;
   justify-content: space-evenly;
   font-family: sans-serif;
   align-items: center;
   /* height: 100vh; */
   padding: 50px 0px;
-  border-bottom: 1px dotted white;
-  border-top: 1px dotted white;
+  border-bottom: 1px dotted var(--textColor);
+  border-top: 1px dotted var(--textColor);
 }
 
 
@@ -309,7 +326,7 @@ li a {
 
 .Page3Second #AboutPara {
   margin-bottom: 25px;
-  color: rgb(227, 237, 236);
+  color: var(--textColor);;
   font-size: 16px;
   /* text-align: justify; */
 }
@@ -317,7 +334,7 @@ li a {
 .Page3Second button {
   background: none;
   border: none;
-  color: #ddd7d7f0;
+  color: var(--textColor);
   cursor: pointer;
   width: 100px;
   margin-right: 30px;
@@ -430,15 +447,15 @@ li a {
 
 
 .ContentPage5 {
-  background-color: #000000;
-  color: White;
+  background-color: var(--bgColor);
+  color: var(--textColor);
   font-family: sans-serif;
   display: flex;
   /* height: 90vh; */
   padding: 80px 0px;
   justify-content: space-evenly;
   align-items: center;
-  border-bottom: 1px dotted white;
+  border-bottom: 1px dotted var(--textColor);
 }
 
 .ContentPage5 h1 {
