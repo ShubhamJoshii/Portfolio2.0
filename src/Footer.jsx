@@ -47,7 +47,7 @@ const Footer = () => {
           <p>
             | Copyright 2022 ©️ Shubham Joshi. Website by Shubham Joshi {timing} |
           </p>
-          {/* <p>| Last Update 18 Oct 2022 |</p> */}
+          {/* <p>| Last Update 01 Nov 2022 |</p> */}
         </div>
       </div>
     </>
