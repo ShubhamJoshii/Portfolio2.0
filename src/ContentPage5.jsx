@@ -32,14 +32,14 @@ import axios from "axios";
       <div className="Contact1">
         <h1>Contact Me</h1>
         <div className="Contact1Inner">
-          <img src={Gmail} alt="GmailLogo" width="25px" />
+          <img src={Gmail} alt="GmailLogo" className="LogoColorChange" width="25px" />
           <h3>shubhamjoshii676@gmail.com</h3>
         </div>
         <div className="Contact1Inner">
-          <img src={Phone} alt="PhoneLogo" width="25px" />
+          <img src={Phone} alt="PhoneLogo" className="LogoColorChange" width="25px" />
           <h3>880024****</h3>
         </div>
-        <div className="ContactSocialLogo">
+        <div className="ContactSocialLogo LogoColorChange">
           {Data.SocialLogo.map((curr, id) => {
             return (
               <a href={curr.link} key={id} target="_blank" rel="noopener noreferrer">

@@ -13,6 +13,7 @@ body{
 .lightmode{
   --bgColor : rgb(255, 255, 255);
   --textColor : rgb(0, 0, 0);
+  --logoColor : invert();
 }
 
 .darkmode{
@@ -379,6 +380,7 @@ li a {
   color: #7e2d36e3;
   margin-top: 12px;
   margin-bottom: 3px;
+  font-weight: bolder;
   cursor: pointer;
 }
 .SkillsOnHover {
@@ -481,6 +483,10 @@ li a {
 
 .ContactSocialLogo {
   margin: 15px 0px 35px 0px;
+}
+
+.LogoColorChange{
+  filter: var(--logoColor);
 }
 
 .ContactSocialLogo img {
