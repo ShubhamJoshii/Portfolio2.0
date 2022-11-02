@@ -131,6 +131,28 @@ li a {
   align-items: center;
 }
 
+.Page3First img{
+  animation-name: BlurLoader;
+  animation-duration: 2s;
+}
+
+@keyframes BlurLoader{
+  0%{
+    filter: blur(1.5px);
+  }
+  50%{
+    filter: blur(1px);
+  }
+  75%{
+    filter: blur(0.5px);
+  }
+  100%{
+    filter: blur(0px)
+  }
+
+}
+
+
 #FrontImg {
   border-radius: 50%;
   width: 300px;
