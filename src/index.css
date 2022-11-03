@@ -14,11 +14,17 @@ body{
   --bgColor : rgb(255, 255, 255);
   --textColor : rgb(0, 0, 0);
   --logoColor : invert();
+  --footerBg: #CDF0EA;
+  --footerBg2 : white;
+  --contactInputbg: #00000042;
 }
 
 .darkmode{
   --bgColor : black;
   --textColor : white;
+  --footerBg: black;
+  --footerBg2: #0f3d3e;
+  --contactInputbg: #1d1d1a;
 }
 
 ::-webkit-scrollbar {
@@ -543,7 +549,7 @@ li a {
   margin-bottom: 25px;
   border-radius: 5px;
   padding: 7px;
-  background-color: #1d1d1a;
+  background-color: var(--contactInputbg);
   border: none;
   color: white;
 }
@@ -552,7 +558,7 @@ li a {
   color: white;
   margin-top: 15px;
   border: none;
-  background-color: #1d1d1a;
+  background-color: var(--contactInputbg);
   padding: 7px;
   width: 40vw;
   height: 30vh;
@@ -580,7 +586,7 @@ li a {
 
 footer {
   /* height: 30vh; */
-  background: linear-gradient(8deg, #0f3d3e 50%, #000000 50%);
+  background: linear-gradient(8deg, var(--footerBg) 50%, var(--footerBg2) 50%);
   display: flex;
   justify-content: center;
 }

@@ -14,15 +14,15 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="footer_First">sj</div>
+        <div className="footer_First LogoColorChange">sj</div>
         <div id="LineOuter">
           <div className="lines"></div>
         </div>
-        <div className="footer_Second">Shubham</div>
+        <div className="footer_Second LogoColorChange">Shubham</div>
         <div id="LineOuter">
           <div className="lines"></div>
         </div>
-        <div className="footer_Third">
+        <div className="footer_Third LogoColorChange">
           {Data.SocialLogo.map((curr, id) => {
             return (
               <a
