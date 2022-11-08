@@ -845,7 +845,7 @@ footer {
     margin-right: 10px;
   }
   footer {
-    background: linear-gradient(19deg, #0f3d3e 50%, #000000 50%);
+    background: linear-gradient(19deg, var(--footerBg) 50%, var(--footerBg2) 50%);
   }
   .ProjectSummInner {
     margin: 9px 0px;
