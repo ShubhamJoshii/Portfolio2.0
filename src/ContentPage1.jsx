@@ -42,6 +42,7 @@ const ContentPage1 = () => {
   useEffect(()=>{
     document.body.classList = mode;
   },[mode])
+  
   return (
     <>
       <div className="ContentPage1" id="home">

@@ -372,19 +372,20 @@ li a {
   font-weight: 700;
   padding-bottom: 3px;
 }
-
+/* 
 .Page3Second button:hover,
 .Page3Second button:focus {
   border-bottom: 3px solid #bc2c4d;
-}
+} */
 
-.lineSkills {
+/* .lineSkills {
   width: 100px;
   height: 3px;
-}
+} */
 
-.lineSkillsColor {
-  background-color: #bc2c4d;
+#OverviewBtn {
+  /* background-color: #bc2c4d; */
+  border-bottom: 3px solid #bc2c4d;
 }
 
 #ToTopBtn {

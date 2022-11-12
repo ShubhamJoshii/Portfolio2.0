@@ -1,14 +1,23 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import Data from "./AllData";
 
 const ContentPage3 = () => {
   // let i = TopicData.Skills;
   const [Count, setCount] = useState(0);
+  
   let TopicArr = [
     Data.TopicData.Skills,
     Data.TopicData.Experience,
     Data.TopicData.Education,
   ];
+  useEffect(()=>{
+    let a = document.getElementsByClassName('OverviewBtn');
+    (Count === 0) ? (a[0].id="OverviewBtn") : (a[0].id="");
+    (Count === 1) ? (a[1].id="OverviewBtn") : (a[1].id="");
+    (Count === 2) ? (a[2].id="OverviewBtn") : (a[2].id="");
+  },[Count]);
+  
   // console.log(Data.TopicData);
   return (
     <div className="ContentPage3" id="AboutMe">
@@ -32,8 +41,9 @@ const ContentPage3 = () => {
               setCount(0);
             }}
           >
-            Skills
-            <div className="lineSkills lineSkillsColor"></div>
+            <div className="OverviewBtn">
+              Skills
+            </div>
           </button>
           <button
             id="Btn2"
@@ -45,7 +55,9 @@ const ContentPage3 = () => {
               
             }}
           >
+          <div className="OverviewBtn">
             Experience
+            </div>
           </button>
           <button
             onClick={() => {
@@ -53,7 +65,9 @@ const ContentPage3 = () => {
               document.getElementsByClassName("lineSkillsColor")[0].style.display = "none";
             }}
           >
+          <div className="OverviewBtn">
             Education
+            </div>
           </button>
           <div className="SkillsPage3">
             {TopicArr[Count].map((Curr, id) => {

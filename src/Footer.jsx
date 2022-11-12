@@ -43,7 +43,7 @@ const Footer = () => {
         {/* <p>All right reserved 2022 - www.shubhamJoshi {timing}</p> */}
         <div>
           <p>
-            | TERMS & CONDITIONS PRIVACY POLICY   | | Last Update 18 Oct 2022 |
+            | TERMS & CONDITIONS PRIVACY POLICY   | | Last Update 12 November 2022 |
           </p>
           <p>
             | Copyright 2022 ©️ Shubham Joshi. Website by Shubham Joshi {timing} |
