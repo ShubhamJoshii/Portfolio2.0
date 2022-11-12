@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio2.0/static/css/main.b8e6d627.css",
-    "main.js": "/Portfolio2.0/static/js/main.9ef2f474.js",
+    "main.css": "/Portfolio2.0/static/css/main.1706df39.css",
+    "main.js": "/Portfolio2.0/static/js/main.a84ea54c.js",
     "static/media/Shubham2.jpg": "/Portfolio2.0/static/media/Shubham2.6ae3da1dc366b0b3efda.jpg",
     "static/media/ProjectPortfolio.png": "/Portfolio2.0/static/media/ProjectPortfolio.bbcb824e35222d666bb5.png",
     "static/media/ProjectHotstar.png": "/Portfolio2.0/static/media/ProjectHotstar.c355847d0fa0a185696f.png",
@@ -11,17 +11,19 @@
     "static/media/ProjectDigital.png": "/Portfolio2.0/static/media/ProjectDigital.d1a6ed40524d2c893ff2.png",
     "static/media/Arrowdown.gif": "/Portfolio2.0/static/media/Arrowdown.5f74af0d4753124c47f1.gif",
     "static/media/Shubham.jpg": "/Portfolio2.0/static/media/Shubham.445dd2e9e684d712bc44.jpg",
-    "static/media/Linkedin.png": "/Portfolio2.0/static/media/Linkedin.705d04a18f3ceabfe926.png",
-    "static/media/Insta.png": "/Portfolio2.0/static/media/Insta.de840006ecd40e8f754a.png",
+    "static/media/Insta.png": "/Portfolio2.0/static/media/Insta.155e6fe134084942c44d.png",
+    "static/media/Linkedin.png": "/Portfolio2.0/static/media/Linkedin.5fa121459ea11de49b57.png",
+    "static/media/github.png": "/Portfolio2.0/static/media/github.435444e2b43f134f05e9.png",
+    "static/media/facebookk.png": "/Portfolio2.0/static/media/facebookk.b49b9c3ba20c4c12779b.png",
     "static/media/ProjectPassword.png": "/Portfolio2.0/static/media/ProjectPassword.435cc5d0239425ddac6e.png",
+    "static/media/Twitter.png": "/Portfolio2.0/static/media/Twitter.b6f83ddcc4bdb3893fb1.png",
     "static/media/ContactPhone.png": "/Portfolio2.0/static/media/ContactPhone.8d85b0cab25436b01346.png",
-    "static/media/github.png": "/Portfolio2.0/static/media/github.0f46edcc827efc098cdd.png",
     "index.html": "/Portfolio2.0/index.html",
-    "main.b8e6d627.css.map": "/Portfolio2.0/static/css/main.b8e6d627.css.map",
-    "main.9ef2f474.js.map": "/Portfolio2.0/static/js/main.9ef2f474.js.map"
+    "main.1706df39.css.map": "/Portfolio2.0/static/css/main.1706df39.css.map",
+    "main.a84ea54c.js.map": "/Portfolio2.0/static/js/main.a84ea54c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8e6d627.css",
-    "static/js/main.9ef2f474.js"
+    "static/css/main.1706df39.css",
+    "static/js/main.a84ea54c.js"
   ]
 }
