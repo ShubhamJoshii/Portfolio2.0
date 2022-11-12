@@ -22,7 +22,8 @@ const Footer = () => {
         <div id="LineOuter">
           <div className="lines"></div>
         </div>
-        <div className="footer_Third LogoColorChange">
+        <div className="footer_Third">
+        {/* LogoColorChange */}
           {Data.SocialLogo.map((curr, id) => {
             return (
               <a

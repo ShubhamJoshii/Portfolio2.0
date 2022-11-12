@@ -39,7 +39,8 @@ import axios from "axios";
           <img src={Phone} alt="PhoneLogo" className="LogoColorChange" width="25px" />
           <h3>880024****</h3>
         </div>
-        <div className="ContactSocialLogo LogoColorChange">
+        <div className="ContactSocialLogo">
+        {/* LogoColorChange */}
           {Data.SocialLogo.map((curr, id) => {
             return (
               <a href={curr.link} key={id} target="_blank" rel="noopener noreferrer">

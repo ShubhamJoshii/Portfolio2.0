@@ -640,11 +640,11 @@ footer {
 
 #SocialImg {
   transition: 1ms;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
-#SocialImg:hover {
-  box-shadow: 0px 0px 1px white;
+#SocialImg:hover{
+  /* box-shadow: 0px 0px -1px white; */
   transform: scale(1.2);
 }
 
