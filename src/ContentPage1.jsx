@@ -13,32 +13,36 @@ const ContentPage1 = () => {
   const [modeLogo,setmodeLogo] = useState(sun)
   let NameText = "Shubham Joshi";
   let i = 0 , count = 0;
-  setInterval(() => {
-    if (i < NameText.length) {
-      document.getElementsByClassName("AutoType")[0].innerHTML += NameText[i];
-      document.getElementsByClassName("AutotypeRemove")[0].style.display = "inline";
-    }
-    if (i === NameText.length) {
-      document.getElementsByClassName("AutotypeRemove")[0].style.display = "none";
-      if(count === 0){
-        NameText = "Web Developer"
-        document.getElementsByClassName("AutoType")[0].innerHTML="W";
-        count++;
+  useEffect(()=>{
+    
+    setInterval(() => {
+      if (i < NameText.length) {
+        document.getElementsByClassName("AutoType")[0].innerHTML += NameText[i];
+        document.getElementsByClassName("AutotypeRemove")[0].style.display = "inline";
       }
-      else{
-        NameText = "Shubham Joshi";
-        document.getElementsByClassName("AutoType")[0].innerHTML="S";
-        count--;
+      if (i === NameText.length) {
+        document.getElementsByClassName("AutotypeRemove")[0].style.display = "none";
+        if(count === 0){
+          NameText = "Web Developer"
+          document.getElementsByClassName("AutoType")[0].innerHTML="W";
+          count++;
+        }
+        else{
+          NameText = "Shubham Joshi";
+          document.getElementsByClassName("AutoType")[0].innerHTML="S";
+          count--;
+        }
+        i = 0;
       }
-      i = 0;
-    }
-    i++;
-  }, 400);
+      i++;
+    }, 400);
+  },[])
+
   const modeChanger = ()=>{
     (mode === "darkmode") ? (setMode("lightmode")) : (setMode("darkmode"));
-    (modeLogo === sun) ? (setmodeLogo(moon)) : (setmodeLogo(sun));
-    
+    (modeLogo === sun) ? (setmodeLogo(moon)) : (setmodeLogo(sun)); 
   }
+
   useEffect(()=>{
     document.body.classList = mode;
   },[mode])
