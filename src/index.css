@@ -137,10 +137,16 @@ li a {
   align-items: center;
 }
 
+.Page3First{
+  /* opacity: 0.5; */
+  background-color: white;
+  border-radius: 20px;
+}
+/* 
 .Page3First img{
   animation-name: BlurLoader;
   animation-duration: 2s;
-}
+} */
 
 @keyframes BlurLoader{
   0%{
