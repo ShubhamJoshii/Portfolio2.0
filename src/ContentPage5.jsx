@@ -1,6 +1,8 @@
 import Data from "./AllData";
-import Gmail from "./Images/GmailLogo.png";
-import Phone from "./Images/ContactPhone.png";
+// import Gmail from "./Images/GmailLogo.png";
+// import Phone from "./Images/ContactPhone.png";
+import Phone from "./Images/phone.png";
+import Gmail from "./Images/Gmail.png";
 import { useState } from "react";
 import axios from "axios";
 
