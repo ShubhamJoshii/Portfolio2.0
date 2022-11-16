@@ -244,6 +244,7 @@ li a {
   background-color:  var(--bgColor);
   color: var(--textColor);
   /* height: 100vh; */
+  padding: 50px 0px;
   border-bottom: 1px dotted var(--textColor);
   border-top: 1px dotted var(--textColor)}
 
@@ -337,7 +338,7 @@ li a {
   font-family: sans-serif;
   align-items: center;
   /* height: 100vh; */
-  padding: 50px 0px;
+  padding: 100px 0px;
   border-bottom: 1px dotted var(--textColor);
   border-top: 1px dotted var(--textColor);
 }
